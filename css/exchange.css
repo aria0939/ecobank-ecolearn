@@ -1,0 +1,161 @@
+#exchange{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.exchange-items:nth-child(2){
+    flex-basis: 50%;
+    text-align: right;
+    direction: ltr;
+    padding: 20px;
+}
+
+.exchange-items:nth-child(2) h1{
+    margin-bottom: 20px;
+    font-size: 3em;
+}
+.exchange-items:nth-child(2) p{
+color: #666666;
+margin-bottom: 35px;
+font-size: 1.5em;
+direction: rtl;
+}
+
+.exchange-items:nth-child(2) ul li{
+    list-style-type: none;
+    color: #666666;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+.exchange-items:nth-child(1){
+    flex-basis: 30%;
+}
+
+.exchange-items:nth-child(2) ul li i{
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: #6B6AA6;
+}
+#backEx{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: right;
+    direction: ltr;
+    position: relative;
+    height: 100%;
+    box-shadow: 0px 0px 20px rgb(215, 215, 215);
+    
+}
+#backEx h2{
+    margin-bottom: 20px;
+}
+#backEx div div img{
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+/* /////// for first transfer rate //////////// */
+.first{
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    border-radius: 20px;
+    overflow: auto;
+    box-shadow: 0px 10px 20px rgb(213, 213, 213);
+}
+.first > h3{
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+.first > p{
+    display: inline-block;
+    margin-top: 10px;
+    float: right;
+    margin-bottom: 40px;
+}
+.cut > div > h3{
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 10px;
+}
+.cut  div > i{
+    vertical-align: middle;
+    margin-top: 10px;
+    font-size: 1.5em;
+   
+ }
+.cut{
+    padding: 15px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(213, 213, 213);
+}
+#backEx > div > h3 ,
+#backEx > div > p{
+padding: 5px 20px;
+}
+
+#backEx > p{
+    direction: rtl;
+    margin-top: 250px;
+}
+
+#backEx > a > i{
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #1f1f1f;
+    text-decoration: none;
+    transition: all .5s;
+    color: #fff;
+}
+#backEx > a > i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px black;
+}
+
+/* /////// for first transfer rate //////////// */
+
+
+
+/* /////// for second transfer rate //////////// */
+.sec{
+    width: 85%;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    border-radius: 20px;
+    overflow: auto;
+    box-shadow: 0px 5px 20px rgb(200, 200, 200);
+    position: absolute;
+    bottom: 120px;
+    left: 100px;
+}
+
+.sec > h3{
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+.sec > p{
+    display: inline-block;
+    margin-top: 10px;
+    float: right;
+    margin-bottom: 40px;
+}
+
+/* /////// for first transfer rate //////////// */

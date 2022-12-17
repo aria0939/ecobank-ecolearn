@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(../Fonts/woff/IRANSansX-Regular.woff);
+    src: url(../Fonts/woff/IRANSansX-Regular.woff);
+}
+*{
+    font-family: 'myfont';
+}

@@ -1,0 +1,47 @@
+header{
+    padding: 25px;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row-reverse;
+}
+#head div img{
+    width: 200px;
+}
+
+#head div ul{
+    margin-left: 85px;
+    direction: rtl;
+}
+
+#head div ul li{
+    margin-left: 50px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+}
+
+#head div ul a{
+    font-weight: bold;
+    color: #575757;
+    text-decoration: none;
+    display: block;
+    transition: all 0.4s;
+    font-size: 1rem;
+}
+
+#head div > a{
+    margin-left: 35px;
+    color: #515151;
+    font-size: 1.2rem;
+    transition: all 0.4s;
+}
+
+#head div ul a:hover,
+#head div > a:hover{
+    color: black;
+}

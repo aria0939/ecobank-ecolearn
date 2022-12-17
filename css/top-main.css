@@ -1,0 +1,124 @@
+#Tmain{
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+}
+#background{
+    position: relative;
+}
+#Tmain h1{
+    font-size: 6.3vw;
+    margin-bottom: 100px;
+    background-image: linear-gradient(to right, #D4745E, #711d95, #0575E6, #D4745E);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    background-position: -100%;
+    animation: animatedText 15s infinite alternate-reverse;
+}
+@keyframes animatedText{
+    to{
+        background-position: 100%;
+    }
+}
+#flesh1{
+    max-width: 30%;
+    position: absolute;
+    top: 9%;
+    right: 2%;
+}
+
+#flesh2{
+    max-width: 30%;
+    position: absolute;
+    top: 9%;
+    left: 2%;
+}
+
+#Tmain a:nth-of-type(1){
+    background-color: #D4745E;
+    min-width: 12.5%;
+    min-height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1vw;
+    position: absolute;
+    top: 85%;
+    right: 13%;
+    z-index: 2;
+    transition: all 0.2s;
+}
+
+#Tmain a:nth-of-type(2){
+    background-color: #6B6AA7;
+    width: 12.5%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1vw;
+    position: absolute;
+    top: 74%;
+    right: 6%;
+    z-index: 1;
+    transition: all 0.2s;
+}
+
+#Tmain a:nth-of-type(3){
+    background-color: #37426E;
+    width: 12.5%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 13%;
+    z-index: 2;
+    transition: all 0.2s;
+    font-size: 1.1vw;
+}
+
+#Tmain a:nth-of-type(4){
+    background-color: #95D5CF;
+    width: 12.5%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1vw;
+    position: absolute;
+    top: 74%;
+    left: 6%;
+    z-index: 1;
+    transition: all 0.2s;
+}
+#card{
+    width: 100%;
+}
+#background{
+    
+}
+#Tmain a:nth-of-type(1):hover,
+#Tmain a:nth-of-type(2):hover,
+#Tmain a:nth-of-type(3):hover,
+#Tmain a:nth-of-type(4):hover{
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.2);
+    z-index: 2; 
+}
+

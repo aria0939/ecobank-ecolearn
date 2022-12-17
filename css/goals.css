@@ -1,0 +1,128 @@
+#goal{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.goal-items:nth-child(1){
+    flex-basis: 50%;
+    text-align: right;
+    direction: ltr;
+    padding: 20px;
+    
+}
+
+.goal-items:nth-child(1) h1{
+margin-bottom: 20px;
+font-size: 3em;
+}
+
+.goal-items:nth-child(1) p{
+color: #666666;
+margin-bottom: 35px;
+font-size: 1.5em;
+}
+
+.goal-items:nth-child(1) ul li{
+list-style-type: none;
+color: #666666;
+margin-bottom: 15px;
+font-size: 1.3em;
+}
+
+.goal-items:nth-child(1) ul li i{
+    font-size: 1.5em;
+    vertical-align: middle;
+    color: #6B6AA6;
+}
+.goal-items:nth-child(2)
+{
+    flex-basis: 30%;
+}
+#back{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: right;
+    direction: ltr;
+    position: relative;
+    height: 100%;
+    box-shadow: 0px 0px 10px rgb(232, 232, 232);
+}
+
+#back > h2{
+    margin-bottom: 20px;
+}
+#wedding{
+    width: 80%;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgb(161, 161, 161);
+    left: 25%;
+}
+#wedding > h4{
+    display: block;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+#wedding > h4 i{
+    font-size: 1.6em;
+    vertical-align: middle;
+    color: yellow;
+    margin-left: 10px;
+}
+#inside{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#inside h1{
+    margin-bottom: 15px;
+}
+#inside > h3,p{
+    color: #666666;
+}
+#inside h3{
+    margin-top: 10px;
+}
+
+#fund{
+    width: 75%;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgb(161, 161, 161);
+    right: 35%;
+    top: 275px;
+}
+#fund > h4{
+    display: block;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+#fund > h4 i{
+    color: green;
+    font-size: 1.6em;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+#inside{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#inside h1{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#inside h3{
+    margin-top: 10px;
+}

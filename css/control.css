@@ -1,0 +1,119 @@
+#control{
+    display:  flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.control-items:nth-child(1){
+    flex-basis: 60%;
+    direction: rtl;
+    padding: 20px;
+}
+
+.control-items:nth-child(1) > h1{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 2.7em;
+    direction: rtl;
+}
+
+.control-items:nth-child(1) > p{
+    color: #666666;
+    margin-bottom: 35px;
+    font-size: 1.5em;
+    direction: rtl;
+}
+
+.control-items:nth-child(2) img{
+    max-width: 100%;
+}
+#Clinks{
+    display: flex;
+    justify-content: right;
+}
+
+#expenses{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 30px;
+    overflow: auto;
+    box-shadow: 0px 0px 20px rgb(214, 214, 214);
+}
+#expenses > h2{
+    color: #ca614c;
+    margin-bottom: 20px;
+}
+#expenses > h1{
+    display: inline;
+    margin-left: 137px;
+}
+#expenses > h3{
+    display: inline;
+    color: #666666;
+}
+#expenses > p{
+    display: inline;
+
+}
+
+#expenses > p > span{
+    color: green;
+}
+
+#Atags{
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+#Atags div:nth-child(1){
+    padding: 30px 35px;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 22px;
+    color: #fff;
+    text-align: right;
+    box-shadow: 0px 0px 20px rgb(214, 214, 214);
+}
+#Atags div:nth-child(1) h3,h4{
+    display: inline;
+}
+#Atags div:nth-child(1) h3{
+    margin-left: 100px;
+}
+#Atags div:nth-child(1) img{
+   vertical-align: middle;
+}
+
+#Atags div:nth-child(2){
+    margin-top: 15px;
+    padding: 30px 35px;
+    text-decoration: none;
+    background: #d6249f;
+    background: radial-gradient(circle at 5% 107%, #fdf497 0%, #fdf497 5%, #fd5949 20%,#d6249f 40%,#285AEB 90%);
+    border-radius: 22px;
+    color: #fff;
+    text-align: right;
+    background-size: 150%;
+    background-position: 0%;
+    box-shadow: 0px 0px 20px rgb(214, 214, 214);
+    animation: animated 5s infinite alternate-reverse;
+}
+@keyframes animated{
+    to{
+        background-position: 100%;
+    }
+}
+#Atags div:nth-child(2) h3,h4{
+    display: inline;
+}
+#Atags div:nth-child(2) h3{
+    margin-left: 100px;
+}
+
+#Atags div:nth-child(2) img{
+   vertical-align: middle;
+   width: 40px;
+}
